@@ -1,0 +1,298 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Storyboard x:Key="StartConsoleStoryboardCursor">
+        <StringAnimationUsingKeyFrames AutoReverse="False" Storyboard.TargetProperty="Text">
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>|" KeyTime="0:0:0.4" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>" KeyTime="0:0:0.8" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>|" KeyTime="0:0:1.2" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>" KeyTime="0:0:1.6" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>|" KeyTime="0:0:2" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>S|" KeyTime="0:0:2.2" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>St|" KeyTime="0:0:2.4" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>Sta|" KeyTime="0:0:2.6" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>Star|" KeyTime="0:0:2.8" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>Start|" KeyTime="0:0:3" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>Start L|" KeyTime="0:0:3.2" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>Start Le|" KeyTime="0:0:3.4" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>Start Les|" KeyTime="0:0:3.6" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>Start Less|" KeyTime="0:0:3.8" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>Start Lesso|" KeyTime="0:0:4" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>Start Lesson|" KeyTime="0:0:4.2" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>Start Lesson-|" KeyTime="0:0:4.4" />
+            <DiscreteStringKeyFrame Value="C:\PascalABC.net>Start Lesson-1" KeyTime="0:0:4.6" />
+        </StringAnimationUsingKeyFrames>
+    </Storyboard>
+    <Style TargetType="TextBlock" x:Key="StartLesonAnimationStyler">
+        <Setter Property="FontFamily" Value="Consolas" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Margin" Value="8,0,8,0" />
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="UserControl.Loaded">
+                <BeginStoryboard Storyboard="{StaticResource StartConsoleStoryboardCursor}" />
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+    
+    <Storyboard x:Key="StringAnimationStoryboard">
+        <StringAnimationUsingKeyFrames AutoReverse="True" Storyboard.TargetProperty="Text">
+            <DiscreteStringKeyFrame Value="Processing" KeyTime="0:0:4.8" />
+            <DiscreteStringKeyFrame Value="Processing." KeyTime="0:0:5.0" />
+            <DiscreteStringKeyFrame Value="Processing.." KeyTime="0:0:5.1" />
+            <DiscreteStringKeyFrame Value="Processing..." KeyTime="0:0:5.2" />
+            <DiscreteStringKeyFrame Value="Processing...." KeyTime="0:0:5.3" />
+            <DiscreteStringKeyFrame Value="Processing....." KeyTime="0:0:5.4" />
+        </StringAnimationUsingKeyFrames>
+    </Storyboard>
+    <Style TargetType="TextBlock" x:Key="StringAnimationStyle">
+        <Setter Property="FontFamily" Value="Consolas" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Margin" Value="8,0,8,0" />
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="Window.Loaded">
+                <BeginStoryboard Storyboard="{StaticResource StringAnimationStoryboard}" />
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+    
+    
+    <Storyboard x:Key="text1">
+        <StringAnimationUsingKeyFrames AutoReverse="False" Storyboard.TargetProperty="Text"  RepeatBehavior="Forever" >
+            <DiscreteStringKeyFrame Value="B┃" KeyTime="0:0:0.3" />
+            <DiscreteStringKeyFrame Value="Be┃" KeyTime="0:0:0.6" />
+            <DiscreteStringKeyFrame Value="Beg┃" KeyTime="0:0:0.9" />
+            <DiscreteStringKeyFrame Value="Begi┃" KeyTime="0:0:1.2" />
+            <DiscreteStringKeyFrame Value="Begin" KeyTime="0:0:1.5" />
+            <DiscreteStringKeyFrame Value="Begin" KeyTime="0:0:12" />
+        </StringAnimationUsingKeyFrames>
+    </Storyboard>
+    
+    <Storyboard x:Key="text2">
+        <StringAnimationUsingKeyFrames AutoReverse="False" Storyboard.TargetProperty="Text"   RepeatBehavior="Forever">
+            <DiscreteStringKeyFrame Value="ㅤㅤ/┃" KeyTime="0:0:1.8" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//┃" KeyTime="0:0:2.1" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//А┃" KeyTime="0:0:2.4" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Aл┃" KeyTime="0:0:2.7" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Алг┃" KeyTime="0:0:3" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Алго┃" KeyTime="0:0:3.3" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Алгор┃" KeyTime="0:0:3.6" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Алгори┃" KeyTime="0:0:3.9" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Алгорит┃" KeyTime="0:0:4.2" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Алгоритм" KeyTime="0:0:4.5" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Алгоритм" KeyTime="0:0:12" />
+        </StringAnimationUsingKeyFrames>
+    </Storyboard>
+    
+    <Storyboard x:Key="text3">
+        <StringAnimationUsingKeyFrames AutoReverse="False" Storyboard.TargetProperty="Text"  RepeatBehavior="Forever">
+            <DiscreteStringKeyFrame Value="ㅤㅤ/┃" KeyTime="0:0:4.8" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//┃" KeyTime="0:0:5.1" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//К┃" KeyTime="0:0:5.4" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Ко┃" KeyTime="0:0:5.7" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Ком┃" KeyTime="0:0:6" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Кома┃" KeyTime="0:0:6.3" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Коман┃" KeyTime="0:0:6.6" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Команд┃" KeyTime="0:0:6.9" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Команда" KeyTime="0:0:7.2" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Команда" KeyTime="0:0:12" />
+        </StringAnimationUsingKeyFrames>
+    </Storyboard>
+    
+    <Storyboard x:Key="text4">
+        <StringAnimationUsingKeyFrames AutoReverse="False" Storyboard.TargetProperty="Text"  RepeatBehavior="Forever">
+            <DiscreteStringKeyFrame Value="E┃" KeyTime="0:0:7.5" />
+            <DiscreteStringKeyFrame Value="En┃" KeyTime="0:0:7.8" />
+            <DiscreteStringKeyFrame Value="End┃" KeyTime="0:0:8.1" />
+            <DiscreteStringKeyFrame Value="End." KeyTime="0:0:8.4" />
+            <DiscreteStringKeyFrame Value="End." KeyTime="0:0:12" />
+        </StringAnimationUsingKeyFrames>
+    </Storyboard>
+    
+    <Style TargetType="TextBlock" x:Key="SttextAnim1">
+        <Setter Property="FontFamily" Value="Calibri" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Margin" Value="8,0,8,0" />
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="TextBlock.Loaded">
+                <BeginStoryboard Storyboard="{StaticResource text1}" />
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+    
+    <Style TargetType="TextBlock" x:Key="SttextAnim2">
+        <Setter Property="FontFamily" Value="Calibri" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="SeaGreen" />
+        <Setter Property="Margin" Value="8,0,8,0" />
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="TextBlock.Loaded">
+                <BeginStoryboard Storyboard="{StaticResource text2}" />
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="TextBlock" x:Key="SttextAnim3">
+        <Setter Property="FontFamily" Value="Calibri" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="SeaGreen" />
+        <Setter Property="Margin" Value="8,0,8,0" />
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="TextBlock.Loaded">
+                <BeginStoryboard Storyboard="{StaticResource text3}" />
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="TextBlock" x:Key="SttextAnim4">
+        <Setter Property="FontFamily" Value="Calibri" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Margin" Value="8,0,8,0" />
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="TextBlock.Loaded">
+                <BeginStoryboard Storyboard="{StaticResource text4}" />
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Storyboard x:Key="text11">
+        <StringAnimationUsingKeyFrames AutoReverse="False" Storyboard.TargetProperty="Text"  RepeatBehavior="Forever" >
+            <DiscreteStringKeyFrame Value="B┃" KeyTime="0:0:0.3" />
+            <DiscreteStringKeyFrame Value="Be┃" KeyTime="0:0:0.6" />
+            <DiscreteStringKeyFrame Value="Beg┃" KeyTime="0:0:0.9" />
+            <DiscreteStringKeyFrame Value="Begi┃" KeyTime="0:0:1.2" />
+            <DiscreteStringKeyFrame Value="Begin" KeyTime="0:0:1.5" />
+            <DiscreteStringKeyFrame Value="Begin" KeyTime="0:0:14" />
+        </StringAnimationUsingKeyFrames>
+    </Storyboard>
+    
+    <Storyboard x:Key="text22">
+        <StringAnimationUsingKeyFrames AutoReverse="False" Storyboard.TargetProperty="Text"   RepeatBehavior="Forever">
+            <DiscreteStringKeyFrame Value="ㅤㅤ/┃" KeyTime="0:0:1.8" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//┃" KeyTime="0:0:2.1" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//А┃" KeyTime="0:0:2.4" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Aл┃" KeyTime="0:0:2.7" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Алг┃" KeyTime="0:0:3" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Алго┃" KeyTime="0:0:3.3" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Алгор┃" KeyTime="0:0:3.6" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Алгори┃" KeyTime="0:0:3.9" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Алгорит┃" KeyTime="0:0:4.2" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Алгоритм" KeyTime="0:0:4.5" />
+            <DiscreteStringKeyFrame Value="ㅤㅤ//Алгоритм" KeyTime="0:0:14" />
+        </StringAnimationUsingKeyFrames>
+    </Storyboard>
+    
+    <Style TargetType="TextBlock" x:Key="SttextAnimPrim1">
+        <Setter Property="FontFamily" Value="Calibri" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Margin" Value="8,0,8,0" />
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="TextBlock.Loaded">
+                <BeginStoryboard Storyboard="{StaticResource text11}" />
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="TextBlock" x:Key="SttextAnimPrim2">
+        <Setter Property="FontFamily" Value="Calibri" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="SeaGreen" />
+        <Setter Property="Margin" Value="8,0,8,0" />
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="TextBlock.Loaded">
+                <BeginStoryboard Storyboard="{StaticResource text22}" />
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+    
+    <Storyboard x:Key="text5">
+        <StringAnimationUsingKeyFrames AutoReverse="False" Storyboard.TargetProperty="Text" RepeatBehavior="Forever">
+            <DiscreteStringKeyFrame Value="ㅤㅤB┃" KeyTime="0:0:4.8" />
+            <DiscreteStringKeyFrame Value="ㅤㅤBe┃" KeyTime="0:0:5.1" />
+            <DiscreteStringKeyFrame Value="ㅤㅤBeg┃" KeyTime="0:0:5.4" />
+            <DiscreteStringKeyFrame Value="ㅤㅤBegi┃" KeyTime="0:0:5.7" />
+            <DiscreteStringKeyFrame Value="ㅤㅤBegin" KeyTime="0:0:6" />
+            <DiscreteStringKeyFrame Value="ㅤㅤBegin" KeyTime="0:0:14" />
+        </StringAnimationUsingKeyFrames>
+    </Storyboard>
+    
+    <Storyboard x:Key="text6">
+        <StringAnimationUsingKeyFrames AutoReverse="False" Storyboard.TargetProperty="Text" RepeatBehavior="Forever">
+            <DiscreteStringKeyFrame Value="ㅤㅤㅤㅤ/┃" KeyTime="0:0:6.3" />
+            <DiscreteStringKeyFrame Value="ㅤㅤㅤㅤ//┃" KeyTime="0:0:6.6" />
+            <DiscreteStringKeyFrame Value="ㅤㅤㅤㅤ//А┃" KeyTime="0:0:6.9" />
+            <DiscreteStringKeyFrame Value="ㅤㅤㅤㅤ//Aл┃" KeyTime="0:0:7.2" />
+            <DiscreteStringKeyFrame Value="ㅤㅤㅤㅤ//Алг┃" KeyTime="0:0:7.5" />
+            <DiscreteStringKeyFrame Value="ㅤㅤㅤㅤ//Алго┃" KeyTime="0:0:7.8" />
+            <DiscreteStringKeyFrame Value="ㅤㅤㅤㅤ//Алгор┃" KeyTime="0:0:8.1" />
+            <DiscreteStringKeyFrame Value="ㅤㅤㅤㅤ//Алгори┃" KeyTime="0:0:8.4" />
+            <DiscreteStringKeyFrame Value="ㅤㅤㅤㅤ//Алгорит┃" KeyTime="0:0:8.7" />
+            <DiscreteStringKeyFrame Value="ㅤㅤㅤㅤ//Алгоритм" KeyTime="0:0:9" />
+            <DiscreteStringKeyFrame Value="ㅤㅤㅤㅤ//Алгоритм" KeyTime="0:0:14" />
+        </StringAnimationUsingKeyFrames>
+    </Storyboard>
+    
+    <Storyboard x:Key="text7">
+        <StringAnimationUsingKeyFrames AutoReverse="False" Storyboard.TargetProperty="Text" RepeatBehavior="Forever">
+            <DiscreteStringKeyFrame Value="ㅤㅤE┃" KeyTime="0:0:9.3" />
+            <DiscreteStringKeyFrame Value="ㅤㅤEn┃" KeyTime="0:0:9.6" />
+            <DiscreteStringKeyFrame Value="ㅤㅤEnd┃" KeyTime="0:0:9.9" />
+            <DiscreteStringKeyFrame Value="ㅤㅤEnd;" KeyTime="0:0:10.2" />
+            <DiscreteStringKeyFrame Value="ㅤㅤEnd;" KeyTime="0:0:14" />
+        </StringAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="text8">
+        <StringAnimationUsingKeyFrames AutoReverse="False" Storyboard.TargetProperty="Text" RepeatBehavior="Forever">
+            <DiscreteStringKeyFrame Value="E┃" KeyTime="0:0:10.5" />
+            <DiscreteStringKeyFrame Value="En┃" KeyTime="0:0:10.8" />
+            <DiscreteStringKeyFrame Value="End┃" KeyTime="0:0:11.1" />
+            <DiscreteStringKeyFrame Value="End." KeyTime="0:0:11.4" />
+            <DiscreteStringKeyFrame Value="End." KeyTime="0:0:14" />
+        </StringAnimationUsingKeyFrames>
+    </Storyboard>
+    
+    <Style TargetType="TextBlock" x:Key="SttextAnimPrim3">
+        <Setter Property="FontFamily" Value="Calibri" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Margin" Value="8,0,8,0" />
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="TextBlock.Loaded">
+                <BeginStoryboard Storyboard="{StaticResource text5}" />
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="TextBlock" x:Key="SttextAnimPrim4">
+        <Setter Property="FontFamily" Value="Calibri" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="SeaGreen" />
+        <Setter Property="Margin" Value="8,0,8,0" />
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="TextBlock.Loaded">
+                <BeginStoryboard Storyboard="{StaticResource text6}" />
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="TextBlock" x:Key="SttextAnimPrim5">
+        <Setter Property="FontFamily" Value="Calibri" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Margin" Value="8,0,8,0" />
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="TextBlock.Loaded">
+                <BeginStoryboard Storyboard="{StaticResource text7}" />
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="TextBlock" x:Key="SttextAnimPrim6">
+        <Setter Property="FontFamily" Value="Calibri" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Margin" Value="8,0,8,0" />
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="TextBlock.Loaded">
+                <BeginStoryboard Storyboard="{StaticResource text8}" />
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

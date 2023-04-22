@@ -1,0 +1,86 @@
+D:\Диплои\Проект\LearningPascal\LearningPascal\bin\Debug\net6.0-windows\LearningPascal.exe
+D:\Диплои\Проект\LearningPascal\LearningPascal\bin\Debug\net6.0-windows\LearningPascal.deps.json
+D:\Диплои\Проект\LearningPascal\LearningPascal\bin\Debug\net6.0-windows\LearningPascal.runtimeconfig.json
+D:\Диплои\Проект\LearningPascal\LearningPascal\bin\Debug\net6.0-windows\LearningPascal.dll
+D:\Диплои\Проект\LearningPascal\LearningPascal\bin\Debug\net6.0-windows\LearningPascal.pdb
+D:\Диплои\Проект\LearningPascal\LearningPascal\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Диплои\Проект\LearningPascal\LearningPascal\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.csproj.AssemblyReference.cache
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\View\MainWindow.g.cs
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\App.g.cs
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal_MarkupCompile.cache
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal_MarkupCompile.lref
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\View\MainWindow.baml
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.g.resources
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.GeneratedMSBuildEditorConfig.editorconfig
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.AssemblyInfoInputs.cache
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.AssemblyInfo.cs
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.csproj.CoreCompileInputs.cache
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.csproj.CopyComplete
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.dll
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\refint\LearningPascal.dll
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.pdb
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.genruntimeconfig.cache
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\ref\LearningPascal.dll
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\Styles\StBaseButton.baml
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\Styles\StBaseText.baml
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\Styles\StButtonBaseHeading.baml
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\View\MainMenuPascal.g.cs
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\View\MainMenuPascal.baml
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\App.baml
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\Styles\AnimationMenuPascal.baml
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\Styles\StScrolBar.baml
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\View\Les1Pascale.g.cs
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\View\Les2Pascale.g.cs
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\View\Les3Pascale.g.cs
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\View\Les1Pascale.baml
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\View\Les2Pascale.baml
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\View\Les3Pascale.baml
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\Styles\AnimationLes1Pascal.baml
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\View\Les1PracticPascal.g.cs
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\View\Les1PracticPascal.baml
+D:\Диплои\Проект\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\Styles\AnimationLes1PracticPascal.baml
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\bin\Debug\net6.0-windows\LearningPascal.exe
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\bin\Debug\net6.0-windows\LearningPascal.deps.json
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\bin\Debug\net6.0-windows\LearningPascal.runtimeconfig.json
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\bin\Debug\net6.0-windows\LearningPascal.dll
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\bin\Debug\net6.0-windows\LearningPascal.pdb
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.csproj.AssemblyReference.cache
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\Styles\AnimationMenuPascal.baml
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\Styles\StBaseButton.baml
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\Styles\StBaseText.baml
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\Styles\StButtonBaseHeading.baml
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\Styles\StScrolBar.baml
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\Styles\AnimationLes1Pascal.baml
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\Styles\AnimationLes1PracticPascal.baml
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\View\MainMenuPascal.g.cs
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\View\MainWindow.g.cs
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\View\Les1Pascale.g.cs
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\View\Les1PracticPascal.g.cs
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\View\Les2Pascale.g.cs
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\View\Les3Pascale.g.cs
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\App.g.cs
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal_MarkupCompile.cache
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal_MarkupCompile.lref
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\App.baml
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\View\MainMenuPascal.baml
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\Base\View\MainWindow.baml
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\View\Les1Pascale.baml
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\View\Les1PracticPascal.baml
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\View\Les2Pascale.baml
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\MVVM\PascalABC\Grade6\View\Les3Pascale.baml
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.g.resources
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.GeneratedMSBuildEditorConfig.editorconfig
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.AssemblyInfoInputs.cache
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.AssemblyInfo.cs
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.csproj.CoreCompileInputs.cache
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.csproj.CopyComplete
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.dll
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\refint\LearningPascal.dll
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.pdb
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\LearningPascal.genruntimeconfig.cache
+D:\Университет\Диплом\Практическая часть\LearningPascal\LearningPascal\obj\Debug\net6.0-windows\ref\LearningPascal.dll

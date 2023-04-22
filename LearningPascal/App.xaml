@@ -1,0 +1,28 @@
+﻿<Application x:Class="LearningPascal.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:LearningPascal"
+             xmlns:ViewBase="clr-namespace:LearningPascal.MVVM.Base.View"
+             xmlns:VMBase="clr-namespace:LearningPascal.MVVM.Base.ViewModel"
+             xmlns:View1Pascal = "clr-namespace:LearningPascal.MVVM.PascalABC.Grade6.View"
+             xmlns:Vm1Pascal = "clr-namespace:LearningPascal.MVVM.PascalABC.Grade6.ViewModel">
+    <Application.Resources>
+         <DataTemplate DataType="{x:Type TypeName=VMBase:VMMainMenuPascal}">
+             <ViewBase:MainMenuPascal/>
+         </DataTemplate>
+        
+        <DataTemplate DataType="{x:Type TypeName=Vm1Pascal:VMles1Pascal}">
+            <View1Pascal:Les1Pascale/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type TypeName=Vm1Pascal:VMLes1PracticPascal}">
+            <View1Pascal:Les1PracticPascal/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type TypeName=Vm1Pascal:VMles2Pascal}">
+            <View1Pascal:Les2Pascale/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type TypeName=Vm1Pascal:VMles3Pascal}">
+            <View1Pascal:Les3Pascale/>
+        </DataTemplate>
+        
+    </Application.Resources>
+</Application>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ycGQ/81QZbiqD07uxx865B/cVN8oHaIfoAUawM2uknaLAosNmJHKmsIyji9vu35t1BC53hSIzVKVi5LoJ03EJg==",
+  "success": true,
+  "projectFilePath": "D:\\Университет\\Диплом\\Практическая часть\\LearningPascal\\LearningPascal\\LearningPascal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aleks\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0-preview.3.23174.8\\microsoft.extensions.dependencyinjection.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "C:\\Users\\aleks\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.3.23174.8\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512"
+  ],
+  "logs": []
+}

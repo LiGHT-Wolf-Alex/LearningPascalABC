@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0-preview.3.23174.8" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="MVVM\Base\Styles\Font\ofont.ru_Garet.ttf" />
+        <None Remove="MVVM\Base\Styles\Font\ofont.ru_Lineyka.ttf" />
+        <None Remove="MVVM\Base\Styles\Font\ofont.ru_Noah.ttf" />
+		
+        <None Remove="MVVM\PascalABC\Grade6\Image\IDE.png" />
+        <None Remove="MVVM\PascalABC\Grade6\Image\iconFolder.png" />
+        <None Remove="MVVM\PascalABC\Grade6\Image\NewFile.png" />
+        <None Remove="MVVM\PascalABC\Grade6\Image\Paste.png" />
+        <None Remove="MVVM\PascalABC\Grade6\Image\SaveAlFile.png" />
+        <None Remove="MVVM\PascalABC\Grade6\Image\Start.png" />
+        <None Remove="MVVM\PascalABC\Grade6\Image\Undo.png" />
+        <None Remove="MVVM\PascalABC\Grade6\Image\Leave.png" />
+        <None Remove="MVVM\PascalABC\Grade6\Image\SaveFile.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Page Update="MVVM\PascalABC\Grade6\Image\IDE.png">
+            <Generator>MSBuild:Compile</Generator>
+            <XamlRuntime>Wpf</XamlRuntime>
+            <SubType>Designer</SubType>
+        </Page>
+    </ItemGroup>
+    <ItemGroup>
+		<Resource Include="MVVM\Base\Styles\Font\ofont.ru_Garet.ttf">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+
+		<Resource Include="MVVM\Base\Styles\Font\ofont.ru_Lineyka.ttf">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="MVVM\Base\Styles\Font\ofont.ru_Noah.ttf">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		
+		<Resource Include="MVVM\PascalABC\Grade6\Image\IDE.png" />
+        <Resource Include="MVVM\PascalABC\Grade6\Image\iconFolder.png" />
+        <Resource Include="MVVM\PascalABC\Grade6\Image\NewFile.png" />
+        <Resource Include="MVVM\PascalABC\Grade6\Image\Paste.png" />
+        <Resource Include="MVVM\PascalABC\Grade6\Image\SaveAlFile.png" />
+        <Resource Include="MVVM\PascalABC\Grade6\Image\Start.png" />
+        <Resource Include="MVVM\PascalABC\Grade6\Image\Undo.png" />
+        <Resource Include="MVVM\PascalABC\Grade6\Image\Leave.png" />
+        <Resource Include="MVVM\PascalABC\Grade6\Image\SaveFile.png" />
+
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="MVVM\KeyboardSimulator\ViewModel\" />
+      <Folder Include="MVVM\KeyboardSimulator\View\" />
+      <Folder Include="MVVM\PascalABC\Grade 7\ViewModel\" />
+      <Folder Include="MVVM\PascalABC\Grade 7\View\" />
+      <Folder Include="MVVM\PascalABC\Grade 8\ViewModel\" />
+      <Folder Include="MVVM\PascalABC\Grade 8\View\" />
+    </ItemGroup>
+
+</Project>
